@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2800
+
+PowerShell indentation script. Partially relying on the built-in cindent but fixing many PowerShell specific indentations like the comment problem (lines that begin with # were considered precompiler and were never indented) and extraneous indentation after a param() line or a line that ends with a .net function call.
+
+Best used with the Windows PowerShell syntax and ftplugin files (vimscript #1327 and vimscript #1816)
+
+Indentation should be perfect now.
+If you happen to find anything that does not indent correctly - please comment on my blog post:
+http://blogs.msdn.com/lior/archive/2009/10/18/powershell-indentation-for-vim-version-2-0.aspx
